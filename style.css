@@ -1,0 +1,33 @@
+html {
+    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/marshmallowonfire.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/marshmallowonfire.gif"), auto;
+}
+
+body {
+    background-image: url("https://pbs.twimg.com/media/FazERbuWQAEgRsl.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+p {
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    display: inline-block;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    font-size: 4vw;
+}
+
+@media screen and (max-width: 600px) {
+    background-image: url("https://pbs.twimg.com/media/FazERbuWQAEgRsl.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
